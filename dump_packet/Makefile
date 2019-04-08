@@ -1,6 +1,6 @@
 CC = gcc
 
-OBJS = netmap_hexdump.o
+OBJS = dump_packet.o
 SRCS = $(OBJS:.o=%.c)
 CFLAGS = -g
 CFLAGS += -I $(NETMAP_DIR)/sys

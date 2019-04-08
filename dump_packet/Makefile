@@ -4,7 +4,7 @@ OBJS = netmap_hexdump.o
 SRCS = $(OBJS:.o=%.c)
 CFLAGS = -g
 CFLAGS += -I $(NETMAP_DIR)/sys
-LDLIBS = -lutil
+LDLIBS = 
 TARGET = netmap_hexdump
 
 #MK_MAN = no
